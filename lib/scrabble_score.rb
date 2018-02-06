@@ -12,7 +12,7 @@ class Word
 
     letter_array.each do |letter|
       score += alphabet.fetch(letter)
-  end
+    end
     score
   end
 end
